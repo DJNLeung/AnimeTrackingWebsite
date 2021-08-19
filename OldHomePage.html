@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css\MyOtakuListStyleSheet.css">
+  <link rel="Scripts" href="js\MyOtakuListScripts.js">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>My Otaku List: Home</title>
+</head>
+
+<body class="lightgraybg w3-content" style="max-width:1600px">
+
+  <!-- Sidebar/menu -->
+
+    <nav class="w3-sidebar w3-bar-block w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+      <h3 class="w3-padding-64 w3-center" style="color:white"><b>MY<br>OTAKU<br>LIST</b></h3>
+      <div class="container">
+        <img src="Pictures\MakimaWink.jpg" style="width:100%" alt="SideBarPicture">
+        <div class="centered">
+          <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">CURRENTLY WATCHING</a>
+          <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">FINISHED WATCHING</a>
+          <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CURRENTLY READING</a>
+        </div>
+      </div>
+    </nav>
+
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px">
+
+    <!-- Photo grid -->
+    <div class="CurrentlyWatching">
+      <h1>
+        <center>
+          <b>ANIME WATCH LIST</b></center>
+      </h1>
+    </div>
+    <div class="w3-row">
+      <!-- COLUMN 1 -->
+      <div class="w3-quarter">
+
+        <!-- lINK CLICK -->
+        <div class="animebox">
+          <img src="Pictures\LinkClick.jpg" style="width:100%" onclick="onClick(this)" alt="LinkClick">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:91.6%">91.6% Done</div>
+            </div>
+          </div>
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to LINK CLICK Page with Details-->
+              <a href="LinkClickDetails.html" rel="noopener noreferrer" target="_blank">LINK CLICK (Shiguan Daliren)</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- MY HERO ACADEMIA SEASON 5 -->
+        <div class="animebox">
+          <img src="Pictures\MyHeroAcademiaSeason5.png" style="width:100%" onclick="onClick(this)" alt="MyHeroAcademiaSeason5">
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:58.3%">58.3%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to MyHeroAcademiaSeason5 Page with Details-->
+              <a href="MyHeroAcademiaSeason5.html" rel="noopener noreferrer" target="_blank">MY HERO ACADEMIA SEASON 5</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- KUMO DESU GA -->
+        <div class="animebox">
+          <img src="Pictures\KumoDesuGa.jpg" style="width:100%" onclick="onClick(this)" alt="KumoDesuGa">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:100%">100% Done</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to KumoDesuGa Page with Details-->
+              <a href="KumoDesuGa.html" rel="noopener noreferrer" target="_blank">SO I'M A SPIDER, SO WHAT?</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- TOKYO REVENGERS -->
+        <div class="animebox">
+          <img src="Pictures\Tokyo_Revengers_Anime_Key_Visual_2.png" style="width:100%" onclick="onClick(this)" alt="TokyoRevengers">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:50%">50%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to TokyoRevengers Page with Details-->
+              <a href="TokyoRevengers.html" rel="noopener noreferrer" target="_blank">TOKYO REVENGERS</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- Artiswitch -->
+        <div class="animebox">
+          <img src="Pictures\Artiswitch.jpg" style="width:100%" onclick="onClick(this)" alt="Artiswitch">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:16.6%">16.6%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to ARTISWITCH Page with Details-->
+              <a href="Artiswitch.html" rel="noopener noreferrer" target="_blank">ARTISWITCH</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="w3-quarter">
+
+        <!-- VIVY FLUORITE EYES SONG -->
+        <div class="animebox">
+          <img src="Pictures\VivyFluoriteEye'sSong.jpg" style="width:100%" onclick="onClick(this)" alt="VivyFluoriteEyes">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:38.46%">38.46%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to VIVY FLUORITE EYES SONG Page with Details-->
+              <a href="VivyFluoriteEyesSong.html" rel="noopener noreferrer" target="_blank">VIVY FLUORITE EYES SONG</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- SHADOWS HOUSE -->
+        <div class="animebox">
+          <img src="Pictures\ShadowsHouse.jpg" style="width:100%" onclick="onClick(this)" alt="ShadowsHouse">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:20.8%">20.8%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to ShadowsHouse Page with Details-->
+              <a href="ShadowsHouse.html" rel="noopener noreferrer" target="_blank">SHADOWS HOUSE</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- SEVEN DEADLY SINS SEASON 3 -->
+        <div class="animebox">
+          <img src="Pictures\SevenDeadlySinsImperialWrath.jpg" style="width:100%" onclick="onClick(this)" alt="SevenDeadlySinsImperialWrath">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:0%">0%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to VIVY FLUORITE EYES SONG Page with Details-->
+              <a href="SevenDeadlySinsSeason3.html" rel="noopener noreferrer" target="_blank">SEVEN DEADLY SINS SEASON 3</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- SEVEN DEADLY SINS SEASON 4 -->
+        <div class="animebox">
+          <img src="Pictures\SevenDeadlySinsAngersJudgement.jpg" style="width:100%" onclick="onClick(this)" alt="SevenDeadlySinsAngersJudgement">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:0%">0%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to VIVY FLUORITE EYES SONG Page with Details-->
+              <a href="SevenDeadlySinsSeason4.html" rel="noopener noreferrer" target="_blank">SEVEN DEADLY SINS SEASON 4</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- HORIMIYA -->
+        <div class="animebox">
+          <img src="Pictures\Horimiya_Key_Visual_2.png" style="width:100%" onclick="onClick(this)" alt="Horimiya_Key_Visual_2">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:41.6%">41.6%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to HORIMIYA Page with Details-->
+              <a href="Horimiya.html" rel="noopener noreferrer" target="_blank">HORIMIYA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="w3-quarter">
+
+        <!-- Aldnoah Zero -->
+        <div class="animebox">
+          <img src="Pictures\AldnoahZero.jpg" style="width:100%" onclick="onClick(this)" alt="AldnoahZero">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:4.1%">4.1%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to AldnoahZero Page with Details-->
+              <a href="AldnoahZero.html" rel="noopener noreferrer" target="_blank">ALDNOAH ZERO</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- IronBloodedOrphans -->
+        <div class="animebox">
+          <img src="Pictures\IronBloodedOrphans.jpg" style="width:100%" onclick="onClick(this)" alt="IronBloodedOrphans">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:50%">50%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to IronBloodedOrphans Page with Details-->
+              <a href="Ironbloodedorphans.html" rel="noopener noreferrer" target="_blank">IRON BLOODED ORPHANS</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- DarlingInTheFranxx -->
+        <div class="animebox">
+          <img src="Pictures\DarlingInTheFranxx.jpg" style="width:100%" onclick="onClick(this)" alt="DarlingInTheFranxx">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:100%">100% Done</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to DarlingInTheFranxx Page with Details-->
+              <a href="DarlingInTheFranxx.html" rel="noopener noreferrer" target="_blank">DARLING IN THE FRANXX</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- EurekaSeven -->
+        <div class="animebox">
+          <img src="Pictures\EurekaSeven.jpg" style="width:100%" onclick="onClick(this)" alt="EurekaSeven">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:100%">100% Done</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to EurekaSeven Page with Details-->
+              <a href="EurekaSeven.html" rel="noopener noreferrer" target="_blank">EUREKA SEVEN</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- BEATLESS -->
+        <div class="animebox">
+          <img src="Pictures\Beatless.jpg" style="width:100%" onclick="onClick(this)" alt="Beatless">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:25%">25%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to BEATLESS Page with Details-->
+              <a href="Beatless.html" rel="noopener noreferrer" target="_blank">BEATLESS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLUMN 4 -->
+      <div class="w3-quarter">
+
+        <!-- CHAINSAW MAN -->
+        <div class="animebox">
+          <img src="Pictures\ChainsawManPromo.jpg" style="width:100%" onclick="onClick(this)" alt="ChainsawManPromo">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:0%">0%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to CHAINSAWMAN Page with Details-->
+              <a href="ChainsawMan.html" rel="noopener noreferrer" target="_blank">CHAINSAW MAN</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- JUJUTSU KAISEN -->
+        <div class="animebox">
+          <img src="Pictures\JujutsuKaisen.png" style="width:100%" onclick="onClick(this)" alt="JujutsuKaisen">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:100%">100% Done</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to JujutsuKaisen Page with Details-->
+              <a href="JujutsuKaisen.html" rel="noopener noreferrer" target="_blank">JUJUTSU KAISEN</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- SAGA OF TANYA THE EVIL -->
+        <div class="animebox">
+          <img src="Pictures\TanyaTheEvil.jpg" style="width:100%" onclick="onClick(this)" alt="TanyaTheEvil">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:100%">100% Done</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to TANYA THE EVIL Page with Details-->
+              <a href="TanyaTheEvil.html" rel="noopener noreferrer" target="_blank">SAGA OF TANYA THE EVIL</a>
+            </div>
+          </div>
+
+          <!-- TheKingsAvatar-->
+        </div>
+        <br>
+
+        <!-- TheKingsAvatar -->
+        <div class="animebox">
+          <img src="Pictures\TheKingsAvatar.jpg" style="width:100%" onclick="onClick(this)" alt="TheKingsAvatar">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:50%">50%</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to TANYA THE EVIL Page with Details-->
+              <a href="TheKingsAvatar.html" rel="noopener noreferrer" target="_blank">THE KING'S AVATAR</a>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- MushokuTensei -->
+        <div class="animebox">
+          <img src="Pictures\MushokuTensei.jpg" style="width:100%" onclick="onClick(this)" alt="MushokuTensei">
+
+          <!-- Progress bar spot-->
+          <div class="w3-container w3-center">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-maroon w3-round-xlarge" style="width:100%">100% Done</div>
+            </div>
+          </div>
+
+          <div class="overlay">
+            <div class="text">
+              <!-- Links to TANYA THE EVIL Page with Details-->
+              <a href="MushokuTensei.html" rel="noopener noreferrer" target="_blank">MUSHOKU TENSEI: JOBLESS REINCARNATION</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End page content -->
+  </div>
+
+</body>
+
+</html>
